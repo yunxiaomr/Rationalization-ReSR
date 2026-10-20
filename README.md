@@ -67,8 +67,7 @@ python -m resr.runnables.toy_resr_train
 python -m resr.runnables.hatexplain_resr_train
 ```
 
-Both use the paper configuration and five seeds:
-`2023 1337 12345 31415 42`. Add `--seeds 2023` for a single run or
+Add `--seeds 2023` for a single run or
 `--force-retrain` to retrain. See [resr/README.md](resr/README.md) for training settings,
 checkpoint selection, and short execution checks.
 
