@@ -116,4 +116,4 @@ The baseline implementations and shared preprocessing are adapted from
 ([Ruggeri and Signorelli, ACL 2025](https://aclanthology.org/2025.acl-long.59/)). 
 `baselines/genspp/` follows its `genetic/` implementation. 
 We appreciate their contributions to the community. 
-The original copyright notice and MIT license are preserved in [LICENSE](LICENSE). 
+The copyright notice and MIT license are preserved in [LICENSE](LICENSE). 
