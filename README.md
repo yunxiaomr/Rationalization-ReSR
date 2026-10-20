@@ -1,7 +1,5 @@
 # ReSR: Responsibility-Aware Scheduling for Selective Rationalization
 
-Dengchao Zhang, Yunxiao Zhao, Zhichao Yan, Yue Fan, Shaoru Guo, and Ru Li.
-
 ReSR uses a virtual-runtime scheduler (VRSR) to allocate updates between the
 rationale generator and predictor, guided by training-only probe and reference
 diagnostics.
