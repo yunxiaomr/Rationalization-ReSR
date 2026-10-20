@@ -114,5 +114,4 @@ python -m baselines.runnables.show_results --all-methods
 The baseline implementations and shared preprocessing are adapted from
 [GenSPP](https://github.com/nlp-unibo/gen-spp/tree/2b447a2f341c51714d16a85431cc1998159bf8f2)
 ([Ruggeri and Signorelli, ACL 2025](https://aclanthology.org/2025.acl-long.59/)).
-`baselines/genspp/` follows its `genetic/` implementation. The original copyright
-notice and MIT license are preserved in [LICENSE](LICENSE).
+`baselines/genspp/` follows its `genetic/` implementation. We appreciate their contributions to the community. 
