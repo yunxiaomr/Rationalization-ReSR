@@ -7,8 +7,7 @@ python -m resr.runnables.toy_resr_train
 python -m resr.runnables.hatexplain_resr_train
 ```
 
-Both use the five seeds `2023 1337 12345 31415 42`. Add `--seeds 2023` for a
-single run or `--force-retrain` to replace the selected seeds' checkpoints.
+Add `--seeds 2023` for a single run or `--force-retrain` to replace the selected seeds' checkpoints.
 
 ## Training and selection
 
