@@ -4,7 +4,7 @@ FR, MGR, MCD, and G-RAT share the loaders, metrics, and configurations in this
 directory. GenSPP is in [`genspp/`](genspp/README.md).
 
 Prepare the datasets and embeddings using the [root README](../README.md).
-Run gradient-based methods from this directory:
+Run prior methods from this directory:
 
 ```bash
 python -m pip install -r requirements.txt
@@ -49,10 +49,10 @@ excluded.
 ## Data protocol
 
 Download links and expected local paths are in the [root README](../README.md#data).
-ReSR and the gradient-based baselines use the same shared loaders.
+ReSR and the baselines use the same shared loaders.
 
 **Toy.** The released file contains 10,000 sequences of 20 characters, three
-classes, and character-level rationale annotations. The gradient-based methods
+classes, and character-level rationale annotations. The baseline methods
 use 6,400 training, 1,600 validation, and 2,000 test examples, with fixed
 validation-sampling seed `15000`. Rename the downloaded `toy_dataset.pkl` to
 `toy_sequential_dataset_easy.pkl`. The file's SHA-256 is
@@ -61,11 +61,11 @@ validation-sampling seed `15000`. Rename the downloaded `toy_dataset.pkl` to
 **HateXplain.** The processed GenSPP splits contain 15,383 / 1,922 / 1,924 posts
 before filtering. Loaders retain posts with at most 30 tokens. Annotator labels
 `hatespeech=0` and `offensive=2` are merged into class `0` before majority voting;
-`normal=1` remains class `1`. ReSR and the gradient baselines combine rationale
+`normal=1` remains class `1`. ReSR and the baselines combine rationale
 masks by strict majority vote. GenSPP retains its original handling of multiple
 annotator masks and internal validation sampling.
 
 **Embeddings.** HateXplain uses the 25-dimensional Twitter GloVe vectors from
 [Stanford NLP](https://nlp.stanford.edu/projects/glove/). Extract
-`glove.twitter.27B.25d.txt` under `data/glove/twitter/`. The gradient-based
+`glove.twitter.27B.25d.txt` under `data/glove/twitter/`. The baseline
 pipeline also builds a cache in `embeddings/`. Toy uses one-hot features.
