@@ -93,7 +93,7 @@ python train.py toy genspp_toy_final
 python train.py hatexplain genspp_hatexplain_final
 cd ../..
 ```
-
+ 
 GenSPP uses the same five seeds by default. See its
 [README](baselines/genspp/README.md) for search settings and evaluation.
 
