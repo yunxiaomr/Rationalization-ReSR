@@ -109,11 +109,10 @@ python -m resr.runnables.show_results --dataset all --split test
 python -m baselines.runnables.show_results --all-methods
 ```
 
-## Acknowledgments and license
+## Acknowledgments
 
 The baseline implementations and shared preprocessing are adapted from
 [GenSPP](https://github.com/nlp-unibo/gen-spp/tree/2b447a2f341c51714d16a85431cc1998159bf8f2)
 ([Ruggeri and Signorelli, ACL 2025](https://aclanthology.org/2025.acl-long.59/)). 
 `baselines/genspp/` follows its `genetic/` implementation. 
 We appreciate their contributions to the community. 
-The copyright notice and MIT license are preserved in [LICENSE](LICENSE). 
