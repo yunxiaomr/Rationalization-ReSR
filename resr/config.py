@@ -27,16 +27,6 @@ TRAINING_SEMANTICS_PROFILES = {
         "collapse_recovery_budget": False,
         "isolate_inactive_dropout": False,
     },
-    "stabilized": {
-        "manual_gradient_clip_val": 1.0,
-        "deterministic_budget_constraints": True,
-        "per_example_budget": True,
-        "warmup_full_input": True,
-        "mask_padding_constraints": True,
-        "isolate_diagnostic_rng": True,
-        "collapse_recovery_budget": True,
-        "isolate_inactive_dropout": True,
-    },
 }
 
 
